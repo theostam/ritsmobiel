@@ -1,0 +1,53 @@
+/* Empty. Add your own CSS if you like */
+.imgphone {
+    width:20%;
+    line-height: 12;
+    margin-bottom: 1%;
+    margin-right: 1%;
+    margin-left: 1%;
+    background-image: url('../img/phone.png')
+}
+.imgmijntaken {
+    width:20%;
+    line-height: 12;
+    margin-bottom: 1%;
+    margin-right: 1%;
+    margin-left: 1%;
+    background-image: url('../img/mail.png')
+}
+.imgteamtaken {
+    width:20%;
+    line-height: 12;
+    margin-bottom: 1%;
+    margin-right: 1%;
+    margin-left: 1%;
+    background-image: url('../img/list2.png')
+}
+.imgzoeken {
+    width:20%;
+    line-height: 12;
+    margin-bottom: 1%;
+    margin-right: 1%;
+    margin-left: 1%;
+    background-image: url('../img/process.png')
+}
+
+#container {
+    height: 400px;
+    width: 400px;
+    position: relative;
+}
+#image {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#text {
+    z-index: 100;
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    left: 150px;
+    top: 350px;
+}
